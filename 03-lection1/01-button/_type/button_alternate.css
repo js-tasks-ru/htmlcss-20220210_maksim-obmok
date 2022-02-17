@@ -1,0 +1,15 @@
+.button_alternate{
+    background: #FFFFFF;
+    color: #495057;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+}
+
+.button_alternate:hover:enabled{
+    border-color: #212429;
+}
+
+.button_alternate:disabled{
+    color: #495057;
+    opacity: 0.5;
+}

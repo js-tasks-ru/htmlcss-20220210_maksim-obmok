@@ -1,0 +1,14 @@
+.button_primary{
+    background: #4263EB;
+    color: #FFFFFF;
+    border-width: 0;
+}
+
+.button_primary:hover:enabled{
+    background: #2342C0;
+}
+
+.button_primary:disabled{
+    background: #4263EB;
+    opacity: 0.5;
+}
