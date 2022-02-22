@@ -30,6 +30,10 @@
     color: #212429;
 }
 
+.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+
 .accordion__text{
     color: #495057;
 }
