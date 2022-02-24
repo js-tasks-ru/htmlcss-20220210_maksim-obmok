@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+body{
+    font-family: Inter, sans-serif;
+}
+
+.histogram{
+    padding: 16px 24px 24px 24px;
+    background: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 185px;
+}
+
+.histogram_header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.histogram_total-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+    opacity: 0.8;
+}
+
+.histogram_total-count{
+    font-size: 20px;
+    line-height: 26px;
+    color: #212429;
+    margin-top: 6px;
+}
+
+.histogram_link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4263EB;
+    margin-top: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.histogram_data{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 40px;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.histogram_column{
+    background: #4263EB;
+    flex: 9px 1 1;
+}
